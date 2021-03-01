@@ -6,6 +6,7 @@ RUN apt-get update \
    locales \
    python3-setuptools \
    python3-pip \
+   python3-cryptography \
    software-properties-common \
    rsyslog systemd systemd-cron sudo iproute2 \
   && rm -Rf /var/lib/apt/lists/* \
